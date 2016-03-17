@@ -1,0 +1,34 @@
+---
+title: esPass
+description: the electronic smartPass
+relative_permalinks: false
+markdown: kramdown
+url: "http://espass.it"
+
+exclude:
+  - app.coffee
+  - CNAME
+  - CONTRIBUTING.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - Rakefile
+  - README.md
+  - script
+  - vendor/bundle
+  - test
+  - tests
+  - assets/vendor/selectivizr/tests
+  - assets/vendor/clipboard/test
+
+gems:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-coffeescript
+
+sass:
+    sass_dir: _sass
+    style: :compressed
+
+
