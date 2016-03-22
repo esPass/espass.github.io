@@ -5,7 +5,7 @@ permalink: /why/
 ---
 
 
-This document describes the advantages and the basic idea behind SmartPasses.
+This document describes the advantages and the basic idea behind smart passes.
 
 
 Event-Tickets
@@ -17,15 +17,15 @@ When currently buying a 3'rd party e-ticket to an event - you have to trust that
 
 ### improved first-come first-serve sales
 
-There are events that have more demand than capacity. Some sell first-come first-serve. But this introduces a lot of stress in operations as once people know the sale is open - there is a peak on the server and this often leads to downtimes, stress, costs and just bad UserExperience. When leveraging the BlockChain and SmartContracts we can make this a pleasant and transparent experience.
+There are events that have more demand than capacity. Some sell first-come first-serve. But this introduces a lot of stress in operations as once people know the sale is open - there is a peak on the server and this often leads to downtimes, stress, costs and just bad user experience. When leveraging the BlockChain and smart contracts we can make this a pleasant and transparent experience.
 
 ### transparent and fair ticket lottery
 
-Some events attack this problem with a ticket-lottery. On the BlockChain you can also make this process fair and transparent. We can even make SmartContracts that prefer the people that not won last year the next year to make things even better.
+Some events attack this problem with a ticket lottery. On the BlockChain you can also make this process fair and transparent. We can even make smart contracts that prefer the people that not won last year the next year to make things even better.
 
 ### smartPasses as perk for event-crowdsale
 
-SmartPass contracts can be combined with [crowdsale-contracts](https://www.ethereum.org/crowdsale). This means when you help fund a event and want to get entry as the perk - you can transparently get a SmartPass.
+Smart pass contracts can be combined with [crowdsale-contracts](https://www.ethereum.org/crowdsale). This means when you help fund a event and want to get entry as the perk - you can transparently get a smart pass.
 
 ### combine with DAO's
 
@@ -45,15 +45,15 @@ By having a digital authorization for participants of the event some more intere
 
 ### Leverage old keys
 
-You could create SmartContracts for selling SmartPasses that favor people that bought a pass last year - e.g. give them some automatic discount.
+You could create smart contracts for selling smart passes that favor people that bought a pass last year - e.g. give them some automatic discount.
 
 ### Verify artists
 
-You can leverage music ( or artist in general )-related contracts - e.g. [ujomusic](http://ujomusic.com/) to verify that the concert-ticket you buy will really bring you the pleasure of listening to the music you like. Or make promo actions like automatically yielding one SmartPass when you buy like 5 albums of an artist.
+You can leverage music ( or artist in general )-related contracts - e.g. [ujomusic](http://ujomusic.com/) to verify that the concert ticket you buy will really bring you the pleasure of listening to the music you like. Or make promo actions like automatically yielding one smart pass when you buy like 5 albums of an artist.
 
 ### Merge passes
 
-With smart contracts we can enable the easy combination of multiple secrets and speed up the process at the entry this way. Lets say a family wants to enter some event - with merging you only have to scan once - without once per family member. You even have the ability to split it up again dynamically - e.g. when something unforeseen parts the groups way before the event
+With smart contracts we can enable the easy combination of multiple secrets and speed up the process at the entry this way. Lets say a family wants to enter some event - with merging you only have to scan once - without once per family member. You even have the ability to split it up again dynamically - e.g. when something unforeseen parts the groups way before the event.
 
 Coupons
 -------
