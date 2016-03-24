@@ -105,6 +105,23 @@ The location info serves 2 main purposes - for one we can give the user some eas
 every field here is optional - this way you can give one event just one location-name - or just add latitude and longitude. There can be multiple locations - think about the usage for ski passes - and the different locations are different lifts.
 If you specify latitude or longitude - then the counterpart must be given - they shall never stand alone. Later we will also add beacon information to this section.
 
+
+### design
+
+In the design section you find only color definitions for the foreground and background color for now. Colors must be ARGB prefixed with 0x
+
+{% highlight json %}
+{
+  .. other fields ..
+  "design": {
+    "fgColor":"0xFFFF0000",
+    "bgColor":"0xFF00FF00"
+  }
+}
+
+{% endhighlight %}
+
+
 ### contract info
 
 It is not mandatory for a SmartPass to be smart and be backed by the BlockChain - even without this we will have some advantages to the Passbook format ( e.g. time-spans ). For the first period and use-cases that need no backing by BlockChain - this field can be just left out.
