@@ -108,14 +108,14 @@ If you specify latitude or longitude - then the counterpart must be given - they
 
 ### design
 
-In the design section you find only color definitions for the foreground and background color for now. Colors must be ARGB prefixed with 0x
+In the design section you find only color definitions for the foreground and background color for now. Colors must be ARGB prefixed with #
 
 {% highlight json %}
 {
   .. other fields ..
   "design": {
-    "fgColor":"0xFFFF0000",
-    "bgColor":"0xFF00FF00"
+    "fgColor":"#FFFF0000",
+    "bgColor":"#FF00FF00"
   }
 }
 
