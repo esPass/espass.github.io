@@ -133,7 +133,7 @@ It is not mandatory for a SmartPass to be smart and be backed by the BlockChain 
     "chain":"eth",
     "contract":"0x4242424242",
     "key":"0x232323232323",
-    "interface","simple_event"  
+    "interface":"simple_event"
   }
 }
 {% endhighlight %}
