@@ -15,7 +15,7 @@ The first iteration will use the [Ethereum](http://ethereum.org) BlockChain excl
 
 ### A word on timing
 
-There is an important piece missing in Ethereum for the intended use-case currently. As smartPasses will be mobile-centric we rely on [light-client](https://github.com/ethereum/wiki/wiki/Light-client-protocol) support - this is planned for Ethereum but not yet available. Get information about the current state of light-clients on Ethereum [here](gitter.im/ethereum/light-client). But this does not have to block us to prepare this standard. This way we can directly use it when light-client support becomes available.
+There is an important piece missing in Ethereum for the intended use-case currently. As smartPasses will be mobile-centric we rely on [light-client](https://github.com/ethereum/wiki/wiki/Light-client-protocol) support - this is planned for Ethereum but not yet available. Get information about the current state of light-clients on Ethereum [here](https://gitter.im/ethereum/light-client). But this does not have to block us to prepare this standard. This way we can directly use it when light-client support becomes available.
 
 Contracts
 ---------
