@@ -53,7 +53,7 @@ the esPass FileFormat
 
 ### container
 
-The pass is a zip-file with the file-extension .espass - In this zip-container you can find a data.json file that mainly defines the pass. You also find assets like icons in this container.
+The pass is a zip-file with the file-extension .espass - In this zip-container you can find a main.json file that mainly defines the pass. You also find assets like icons in this container.
 
 ### mandatory fields
 
