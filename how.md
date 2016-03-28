@@ -80,7 +80,6 @@ if no valid_time_ranges field is present - the tickets are always valid. But the
 
 {% highlight json %}
 {
-  .. other fields ..
   "valid_time_ranges": [{
     "from":"",
     "to":""
@@ -95,9 +94,8 @@ The location info serves 2 main purposes - for one we can give the user some eas
 
 {% highlight json %}
 {
-  .. other fields ..
   "locations": [{
-    "name","",
+    "name":"",
     "lat":"",
     "lon":""
   }]
@@ -114,7 +112,6 @@ The accent color can give a visual clue to faster find passes and give some plea
 
 {% highlight json %}
 {
-  .. other fields ..
   "accentColor":"#FFFF0000"
 }
 
@@ -127,7 +124,6 @@ It is not mandatory for a SmartPass to be smart and be backed by the BlockChain 
 
 {% highlight json %}
 {
-  .. other fields ..
   "contract": {
     "chain":"eth",
     "contract":"0x4242424242",
