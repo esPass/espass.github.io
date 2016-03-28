@@ -69,6 +69,7 @@ strong {
 .container {
   margin: 40px auto;
   width: 940px;
+  margin-bottom: 1000px;
 }
 
 .home {
@@ -553,3 +554,14 @@ strong {
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 
 {% include css/responsive.css %}
+#toc .toc-h2 {
+    padding-left: 8px;
+}
+
+#toc .toc-h3 {
+    padding-left: 16px;
+}
+
+.home{
+    padding: 8px;
+}

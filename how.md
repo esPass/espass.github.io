@@ -4,27 +4,26 @@ layout: default
 permalink: /how/
 ---
 
-Foreword
---------
+Context
+-------
 
-
-### BlockChain provider
+### Blockchain
 
 The first iteration will use the [Ethereum](http://ethereum.org) BlockChain exclusively. Smart contracts are key to smart passes - hence the similarity in naming. But esPass will be open to allow other BlockChains in the future.
 
 
-### A word on timing
+### Timing
 
 There is an important piece missing in Ethereum for the intended use-case currently. As smartPasses will be mobile-centric we rely on [light-client](https://github.com/ethereum/wiki/wiki/Light-client-protocol) support - this is planned for Ethereum but not yet available. Get information about the current state of light-clients on Ethereum [here](https://gitter.im/ethereum/light-client). But this does not have to block us to prepare this standard. This way we can directly use it when light-client support becomes available.
 
-### This is a draft
+### Status
 
-Please join the discussion - feedback and pull-requests are very welcome. Please expect changes and don't rely on this to be backward compatible yet.
+This is a draft. Please join the discussion - feedback and pull-requests are very welcome. Please expect changes and don't rely on this to be backward compatible yet.
 
 Contracts
 ---------
 
-### simple event-passes
+### Simple event-passes
 
 The basic smartPass is like the [coin contract](https://www.ethereum.org/token) - just instead of coins we manage tickets with this contract.
 
@@ -52,14 +51,14 @@ contract MyEventPass {
 }
 {% endhighlight %}
 
-the esPass FileFormat
+The esPass FileFormat
 ---------------------
 
-### container
+### Container
 
 The pass is a zip-file with the file-extension .espass - In this zip-container you can find a main.json file that mainly defines the pass. You also find assets like icons in this container.
 
-### mandatory fields
+### Mandatory fields
 
 {% highlight json %}
 {
@@ -75,7 +74,7 @@ this might be extended with other use cases in later versions
 
 we keep the mandatory fields as limited as possible to not pollute later usages with unnecessary fields.
 
-### time info
+### Time info
 
 if no valid_time_ranges field is present - the tickets are always valid. But there are for example use-case like annual passes where you want to define a start and a end-date. In some cases even multiple of those - thats why we give flexibility with an array here.
 
@@ -90,7 +89,7 @@ if no valid_time_ranges field is present - the tickets are always valid. But the
 {% endhighlight %}
 
 
-### location info
+### Location info
 
 The location info serves 2 main purposes - for one we can give the user some easy navigation to the event from the pass - for the other you can present the user easy access to the pass ( e.g. via some notification ) when he gets close to the location ( at the right time ).
 
@@ -109,7 +108,7 @@ The location info serves 2 main purposes - for one we can give the user some eas
 every field here is optional - this way you can give one event just one location-name - or just add latitude and longitude. There can be multiple locations - think about the usage for ski passes - and the different locations are different lifts.
 If you specify latitude or longitude - then the counterpart must be given - they shall never stand alone. Later we will also add beacon information to this section.
 
-### accent color
+### Color
 
 The accent color can give a visual clue to faster find passes and give some pleasure to the eyes.
 
@@ -122,7 +121,7 @@ The accent color can give a visual clue to faster find passes and give some plea
 {% endhighlight %}
 
 
-### contract info
+### Contract info
 
 It is not mandatory for a SmartPass to be smart and be backed by the BlockChain - even without this we will have some advantages to the Passbook format ( e.g. time-spans ). For the first period and use-cases that need no backing by BlockChain - this field can be just left out.
 

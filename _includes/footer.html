@@ -10,18 +10,11 @@
       </footer>
 
     </div> <!-- /container -->
-
-    {% if page.collection == "licenses" or page.class == "license-types" %}
-    <script src="/assets/vendor/jquery/jquery.min.js"></script>
-    <script src="/assets/vendor/qtip2/jquery.qtip.min.js"></script>
-    <script src="/assets/vendor/clipboard/dist/clipboard.min.js"></script>
     <script>
-      window.annotations = {{ site.data.rules | jsonify }};
-    </script>
-    <script src="/assets/js/app.js"></script>
-    {% endif %}
+      $('#toc').toc({
+'smoothScrolling': false
+      });
 
-    <script>
       !function(L,I,C,e,N,S,E){L.GoogleAnalyticsObject=N,L[N]=L[N]||function(){
       (L[N].q=L[N].q||[]).push(arguments)},L[N].l=+new Date,S=I.createElement(C),
       E=I.getElementsByTagName(C)[0],S.src=e,E.parentNode.insertBefore(S,E)
