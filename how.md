@@ -17,6 +17,10 @@ The first iteration will use the [Ethereum](http://ethereum.org) BlockChain excl
 
 There is an important piece missing in Ethereum for the intended use-case currently. As smartPasses will be mobile-centric we rely on [light-client](https://github.com/ethereum/wiki/wiki/Light-client-protocol) support - this is planned for Ethereum but not yet available. Get information about the current state of light-clients on Ethereum [here](https://gitter.im/ethereum/light-client). But this does not have to block us to prepare this standard. This way we can directly use it when light-client support becomes available.
 
+### This is a draft
+
+Please join the discussion - feedback and pull-requests are very welcome. Please expect changes and don't rely on this to be backward compatible yet.
+
 Contracts
 ---------
 
@@ -105,18 +109,14 @@ The location info serves 2 main purposes - for one we can give the user some eas
 every field here is optional - this way you can give one event just one location-name - or just add latitude and longitude. There can be multiple locations - think about the usage for ski passes - and the different locations are different lifts.
 If you specify latitude or longitude - then the counterpart must be given - they shall never stand alone. Later we will also add beacon information to this section.
 
+### accent color
 
-### design
-
-In the design section you find only color definitions for the foreground and background color for now. Colors must be ARGB prefixed with #
+The accent color can give a visual clue to faster find passes and give some pleasure to the eyes.
 
 {% highlight json %}
 {
   .. other fields ..
-  "design": {
-    "fgColor":"#FFFF0000",
-    "bgColor":"#FF00FF00"
-  }
+  "accentColor":"#FFFF0000"
 }
 
 {% endhighlight %}
