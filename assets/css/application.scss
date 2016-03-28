@@ -69,7 +69,6 @@ strong {
 .container {
   margin: 40px auto;
   width: 940px;
-  margin-bottom: 1000px;
 }
 
 .home {
@@ -556,6 +555,7 @@ strong {
 {% include css/responsive.css %}
 #toc .toc-h2 {
     padding-left: 8px;
+    padding-top: 8px;
 }
 
 #toc .toc-h3 {
