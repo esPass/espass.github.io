@@ -118,10 +118,9 @@ Fields is a list of fields with information to the user. This might be e.g. whic
     "hide":false
   }]
 }
+{% endhighlight %}
 
 Fields always consist of a label and value pair - the hide flag gives a hint to the presenter that this field should not be shown by default - only after user action - might be something like Terms of Service information - similar to the backFields in the pkpass format
-
-{% endhighlight %}
 
 ### Color
 
