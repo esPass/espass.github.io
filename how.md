@@ -81,8 +81,8 @@ if no valid_time_ranges field is present - the tickets are always valid. But the
 {% highlight json %}
 {
   "valid_time_ranges": [{
-    "from":"",
-    "to":""
+    "from":"2016-12-28T20:00+01:00",
+    "to":"2016-12-28T23:00+01:00"
   }]
 }
 {% endhighlight %}
