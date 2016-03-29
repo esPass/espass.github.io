@@ -106,6 +106,23 @@ The location info serves 2 main purposes - for one we can give the user some eas
 every field here is optional - this way you can give one event just one location-name - or just add latitude and longitude. There can be multiple locations - think about the usage for ski passes - and the different locations are different lifts.
 If you specify latitude or longitude - then the counterpart must be given - they shall never stand alone. Later we will also add beacon information to this section.
 
+### Fields
+
+Fields is a list of fields with information to the user. This might be e.g. which entrance to take - or which seat you have if seats are assigned. There are a lot of possibilities for fields and this highly depends on the type of event. This list might also be empty.
+
+{% highlight json %}
+{
+  "fields":[{
+    "label":"Film",
+    "value":"Star Trek - Beyond",
+    "hide":false
+  }]
+}
+
+Fields always consist of a label and value pair - the hide flag gives a hint to the presenter that this field should not be shown by default - only after user action - might be something like Terms of Service information - similar to the backFields in the pkpass format
+
+{% endhighlight %}
+
 ### Color
 
 The accent color can give a visual clue to faster find passes and give some pleasure to the eyes.
