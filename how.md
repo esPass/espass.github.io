@@ -157,7 +157,7 @@ With the barcode section we can represent passes as used currently ( 2016 ) in t
     "format": "QR_CODE",
     "message": "13f3c625-ec9e-40cf-b8eb-85eedb765cf9",
     "alternativeText": "13f3c625-ec9e",
-    "size","128x128"
+    "size":"128x128"
   }
 }
 
