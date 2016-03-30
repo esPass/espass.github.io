@@ -3,6 +3,7 @@ title: Example esPass files
 layout: default
 permalink: /examples/
 ---
+
 ### Events
 
 <img class="passicon" src="/assets/img/pass_icons/movie.png"/>
@@ -43,5 +44,7 @@ max 100kWh
 one way from Babylon to Paradise
 
 <p style="clear:left;margin-bottom:48px"/>
+
+*!!! These are example passes - not valid for anything - just to demonstrate the basic ( no blockchain registration yet ) esPass format!!!*
 
 [here](/imagecredits/) the attribution/source for the icons
