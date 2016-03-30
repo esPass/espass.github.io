@@ -62,21 +62,25 @@ The pass is a zip-file with the file-extension .espass - In this zip-container y
 
 {% highlight json %}
 {
-  "type":"event",
-  "version":"1",
-  "name":"My awesome event"
+  "type":"EVENT",
+  "name":"My awesome event",
+  "id":"db8049ec-f576-4548-aee8-c6b5f5004909"
 }
 {% endhighlight %}
 
-type can be either *event*, *voucher*, *loyalty*, *coupon*, *boarding*
+type can be either *EVENT*, *VOUCHER*, *LOYALTY*, *COUPON*, *BOARDING*
 
-this might be extended with other use cases in later versions
+this might be extended with other types in later versions
 
-we keep the mandatory fields as limited as possible to not pollute later usages with unnecessary fields.
+"Id" is mainly used to prevent duplicates and is a string that should be as unique as possible.
+
+Name is a string that can be presented to the user in a list of passes.
+
+We keep the mandatory fields as limited as possible to not pollute later usages with unnecessary fields.
 
 ### Time info
 
-if no valid_time_ranges field is present - the tickets are always valid. But there are for example use-case like annual passes where you want to define a start and a end-date. In some cases even multiple of those - thats why we give flexibility with an array here.
+If no valid_time_ranges field is present: the tickets are always valid. But there are for example use-case like annual passes where you want to define a start and a end-date. In some cases even multiple of those - thats why we give flexibility with an array here.
 
 {% highlight json %}
 {
@@ -87,6 +91,16 @@ if no valid_time_ranges field is present - the tickets are always valid. But the
 }
 {% endhighlight %}
 
+### Metadata
+
+{% highlight json %}
+{
+  "app":"passandroid",
+  "creator":"ligi"
+}
+{% endhighlight %}
+
+The app field indicates which application was used to create the pass. This can enable special treatment for passes from certain sources. The creator field states who created the pass. This info can be used for grouping passes. It can also be used to give the user a clue if a new pass is from the same vendor as before. This will be combined with a check if the key which was used for signing is the same.
 
 ### Location info
 
