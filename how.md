@@ -165,7 +165,7 @@ With the barcode section we can represent passes as used currently ( 2016 ) in t
 
 Format can be either QR_CODE, PDF417, AZTEC, CODE_39, CODE_93, CODE_128
 The message is the message that should be encoded with the barcode.
-alternativeText and size are optional. The alternativeText is displayed below the barcode if given and used for manual verification if there are problems with the barcode reader. Size gives a indication how big the barcode should ideally be to be optimally scanned by the scanners available at the entrance. The size is given in [Device independent pixels](https://en.wikipedia.org/wiki/Device_independent_pixelhttps://en.wikipedia.org/wiki/Device_independent_pixel)
+alternativeText and size are optional. The alternativeText is displayed below the barcode if given and used for manual verification if there are problems with the barcode reader. Size gives a indication how big the barcode should ideally be to be optimally scanned by the scanners available at the entrance. The size is given in [Device independent pixels](https://en.wikipedia.org/wiki/Device_independent_pixel)
 
 ### Contract info
 
