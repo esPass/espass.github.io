@@ -229,3 +229,7 @@ We store the key in the esPass file. There might also be the possibility to use 
 ### Who pays the ether/gas
 
 Also for reasons of good UX we will not require the normal user to hold any ether. The ether needed will be provided by the creator of the passes he pays the fee when instantiating the contract - he will price this in when selling the passes. It should be fraction of cents per pass. When reselling the pass there is also ether needed - but then there is mostly also money involved and we can use a fraction of this to buy ether to execute the transfer function of the contract.
+
+### Distribution of passes
+
+In the beginning we will be pragmatic about this and deliver passes via download or mail. But the future is in providing the passes via [IPFS](http://ipfs.io). This will only work for contract based passes. It would be stupid with barcode backed passes. Contract based passes will be provided without the key information. So the pass provider can publish the pass with all needed information - the user can download this and then make the pass a valid one by paying the pass and executing a contract this way. The hash in ipfs can then also be bound to the event-contract so users can be sure about details e.g. specified in the fields.
