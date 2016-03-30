@@ -109,9 +109,9 @@ The location info serves 2 main purposes - for one we can give the user some eas
 {% highlight json %}
 {
   "locations": [{
-    "name":"",
-    "lat":"",
-    "lon":""
+    "name":"CCH Hamburg",
+    "lat": 53.561826,
+    "lon": 9.986032
   }]
 }
 
