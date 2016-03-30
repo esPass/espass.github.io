@@ -188,7 +188,7 @@ chain specifies the chain - as mentioned in the beginning we will be BlockChain 
 Processes
 ---------
 
-### reselling
+### Reselling
 
 If you sell a pass - you do not just give a copy of the esPass file to the buyer. This would defeat the purpose. Reselling has to be done over an app that calls a contract to reassign the pass from the seller to the buyer. The buyer never discloses his private key for the pass - and only this way he can check and be sure later on that only he gets access - because only he can prove to have the private key which is assigned with this pass.
 
