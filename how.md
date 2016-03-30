@@ -80,16 +80,38 @@ We keep the mandatory fields as limited as possible to not pollute later usages 
 
 ### Time info
 
-If no valid_time_ranges field is present: the tickets are always valid. But there are for example use-case like annual passes where you want to define a start and a end-date. In some cases even multiple of those - thats why we give flexibility with an array here.
+We have 2 fields to provide timing information. One is to define times when the ticket is valid ( "valid_timespans") - the other ("calendar_timespan") is to give the user a nice calendar-entry.
+If the valid_timespans field is empty: the tickets are always valid. But there are for example use-case like annual passes where you want to define a start and a end-date. In some cases even multiple of those - hence this is defined as an array. Repetitions are also supported - e.g. for bus-tickets that are only valid on Fridays. The offset is given in hours.
+From and to are also optional - if "from" is left out then it defaults to the beginning of time and if "to" is left out - then it defaults to the end of time. This is useful if the pass is imported from pkpass format where we only have the "expirationDate" field.
+
 
 {% highlight json %}
 {
-  "valid_time_ranges": [{
-    "from":"2016-12-28T20:00+01:00",
-    "to":"2016-12-28T23:00+01:00"
+  "validTimespans": [{
+    "from":"2016-12-28T19:00+01:00",
+    "to":"2016-12-28T23:00+01:00",
+    "repeat": {
+      "offset":168,
+      "count":52
+    }
   }]
 }
 {% endhighlight %}
+
+  If no calendar_timespan is given the app will not present the user with the functionality of easily adding a calendar entry that fits the pass. For some use-cases like some annual pass  this would not be a useful feature. For other cases like some concert - this can be a pretty nice time saver. Repeat will be of no use for the calendar - but still the same data structure can be used as repeat is optional.
+
+{% highlight json %}
+{  
+  "calendarTimespan": {
+    "from":"2016-12-28T20:00+01:00",
+    "to":"2016-12-28T22:00+01:00"
+  }
+}
+{% endhighlight %}
+
+
+From and to are optional - but one of them has to be present - if "from" is not given it defaults to beginning of time - and "to" defaults to end of time. Passes that origin on the pkpass format will only have to as we only have the expirationDate field here.
+
 
 ### Metadata
 
@@ -202,7 +224,7 @@ Not everyone has a smart phone - but we can degrade gracefully for them. When de
 
 ### Key storage
 
-We store the key in the esPass file. There might also be the possibility to use keys from some wallet-app later on but to get a really low barrier and pleasant user experience in the beginning we go this route. 
+We store the key in the esPass file. There might also be the possibility to use keys from some wallet-app later on but to get a really low barrier and pleasant user experience in the beginning we go this route.
 
 ### Who pays the ether/gas
 
