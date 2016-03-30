@@ -183,3 +183,19 @@ It is not mandatory for a SmartPass to be smart and be backed by the BlockChain 
 {% endhighlight %}
 
 chain specifies the chain - as mentioned in the beginning we will be BlockChain agnostic and support other BlockChains in the future. Our only option here in the beginning is eth for Ethereum - which does not mean the Ethereum technology - but the Ethereum ( main ) BlockChain - there might be other BlockChains that use Ethereum technology
+
+
+Processes
+---------
+
+### reselling
+
+If you sell a pass - you do not just give a copy of the esPass file to the buyer. This would defeat the purpose. Reselling has to be done over an app that calls a contract to reassign the pass from the seller to the buyer. The buyer never discloses his private key for the pass - and only this way he can check and be sure later on that only he gets access - because only he can prove to have the private key which is assigned with this pass.
+
+### Entry
+
+When checking passes at the entrance we check that the guests have the private key assigned with the pass. We can do this by letting the user sign a given string with their key. We might define a freeze-period before the event where tickets cannot be resold anymore as we otherwise have to rely on a on the spot internet connection.
+
+### Graceful degradation
+
+Not everyone has a smart phone - but we can degrade gracefully for them. When delivering the pass we can deliver the signed message for the initial key in a barcode as before. This way you cannot resell but you can gain entrance. You have to keep the pass secret as before - nothing changes there. This barcode can e.g. be delivered as an image alongside the espass file in the email after buying and users can print it.
