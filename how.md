@@ -199,3 +199,11 @@ When checking passes at the entrance we check that the guests have the private k
 ### Graceful degradation
 
 Not everyone has a smart phone - but we can degrade gracefully for them. When delivering the pass we can deliver the signed message for the initial key in a barcode as before. This way you cannot resell but you can gain entrance. You have to keep the pass secret as before - nothing changes there. This barcode can e.g. be delivered as an image alongside the espass file in the email after buying and users can print it.
+
+### Key storage
+
+We store the key in the esPass file. There might also be the possibility to use keys from some wallet-app later on but to get a really low barrier and pleasant user experience in the beginning we go this route. 
+
+### Who pays the ether/gas
+
+Also for reasons of good UX we will not require the normal user to hold any ether. The ether needed will be provided by the creator of the passes he pays the fee when instantiating the contract - he will price this in when selling the passes. It should be fraction of cents per pass. When reselling the pass there is also ether needed - but then there is mostly also money involved and we can use a fraction of this to buy ether to execute the transfer function of the contract.
