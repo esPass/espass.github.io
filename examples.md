@@ -6,7 +6,8 @@ permalink: /examples/
 
 ### Events
 
-<img class="passicon" src="/assets/img/pass_icons/movie.png" alt="movie"/>
+<a href="/assets/download/pass/movie.espass">
+<img class="passicon" src="/assets/img/pass_icons/movie.png" alt="movie"/></a>
 ***Movie: Star Trek Beyond***
 
 21.07.2016 20:30
@@ -23,7 +24,7 @@ max 100kWh
 
  <p style="clear:left;margin-bottom:48px"/>
 
- <a href="#">
+ <a href="/examples/">
  <img class="passicon" src="/assets/img/pass_icons/coffee.png" alt="coffee"/></a>
  ***cup of coffee***
 
@@ -37,7 +38,7 @@ max 100kWh
 1.1.2023 16:20
 <p style="clear:left;padding:16px"/>
 
-<a href="#">
+<a href="/examples/">
 <img class="passicon" src="/assets/img/pass_icons/bus-green.png" alt="green bus"/></a>
 ***The green eco bus***
 
