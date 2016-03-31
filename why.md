@@ -61,7 +61,7 @@ You can create a smart contract for early-bird sales and yield smart passes from
 
 ### Ticket auctions
 
-It is then possible to do smart-contracts for ticket auctions.  This might be an interesting way for the problem of price-finding for certain events. If they make it to expensive: the capacity will not be leveraged. If they make it to cheap: they lose money ( or karma points when they are used for paying for the event).
+It is then possible to do smart-contracts for ticket auctions.  This might be an interesting way for the problem of price-finding for certain events. If they make it to expensive: the capacity will not be leveraged. If they make it to cheap: they lose money ( or karma points when they are used for paying for the event). This way the extra profits go to the artists/promoter/organizer/venue/.. instead of people that trade with tickets. 
 
 Coupons
 -------
