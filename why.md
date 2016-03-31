@@ -55,6 +55,11 @@ You can leverage music ( or artist in general )-related contracts - e.g. [ujomus
 
 With smart contracts we can enable the easy combination of multiple secrets and speed up the process at the entry this way. Lets say a family wants to enter some event - with merging you only have to scan once - without once per family member. You even have the ability to split it up again dynamically - e.g. when something unforeseen parts the groups way before the event.
 
+### Improved early bird sales
+
+You can create a smart contract for early-bird sales and yield smart passes from this. You can even improve this with smart-contracts by not having fixed deadlines for certain prices - but use the blockheight - so the ticket gets more expensive with every block. 
+
+
 Coupons
 -------
 
