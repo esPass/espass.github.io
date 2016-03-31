@@ -13,7 +13,7 @@ Event-Tickets
 
 ### Easy reselling
 
-When currently buying a 3'rd party e-ticket to an event - you have to trust that the seller keeps no copy and enters the venue with the barcode before you have the chance to do so. You are also unable to verify if the seller has sold the ticket a lot of times already. There is a lot of trust involved and so a lot of missed opportunities because people just fear to be ripped of. By registering the tickets on the blockchain you can verify if your ticket is valid and and will grant you access to the event. Furthermore you can even enhance the system to verify issuers/venues - even artists. This also removes the crazy necessary for people to spend time and effort to get out in person and sell their ticket close to the entrance to the event - just because being there in person increases the trust-level over a threshold that people actually buy some tickets.
+When currently buying a third party e-ticket to some event you have to trust that the seller that he keeps no copy. Otherwise  he can still enter the venue with the barcode before you have the chance to do so and your ticket is not good for anything. You are also unable to verify if the seller has sold the ticket a lot of times already. There is a lot of trust involved and so a lot of missed opportunities because people just fear to be ripped of. By registering the tickets on the blockchain you can verify if your ticket is valid and and will grant you access to the event. Furthermore you can even enhance the system to verify issuers/venues - even artists. This also removes the crazy necessary for people to spend time and effort to get out in person and sell their ticket close to the entrance to the event - just because being there in person increases the trust-level over a threshold that people actually buy some tickets.
 
 ### Improved first-come first-serve sales
 
@@ -57,7 +57,7 @@ With smart contracts we can enable the easy combination of multiple secrets and 
 
 ### Improved early bird sales
 
-You can create a smart contract for early-bird sales and yield smart passes from this. You can even improve this with smart-contracts by not having fixed deadlines for certain prices - but use the blockheight - so the ticket gets more expensive with every block. 
+You can create a smart contract for early-bird sales and yield smart passes from this. You can even improve this with smart-contracts by not having fixed deadlines for certain prices - but use the blockheight - so the ticket gets more expensive with every block.
 
 
 Coupons
