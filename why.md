@@ -59,6 +59,9 @@ With smart contracts we can enable the easy combination of multiple secrets and 
 
 You can create a smart contract for early-bird sales and yield smart passes from this. You can even improve this with smart-contracts by not having fixed deadlines for certain prices - but use the blockheight - so the ticket gets more expensive with every block.
 
+### Ticket auctions
+
+It is then possible to do smart-contracts for ticket auctions.  This might be an interesting way for the problem of price-finding for certain events. If they make it to expensive: the capacity will not be leveraged. If they make it to cheap: they lose money ( or karma points when they are used for paying for the event).
 
 Coupons
 -------
