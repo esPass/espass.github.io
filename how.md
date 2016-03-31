@@ -111,7 +111,7 @@ From and to are also optional - if "from" is left out then it defaults to the be
 
 
 From and to are optional - but one of them has to be present - if "from" is not given it defaults to beginning of time - and "to" defaults to end of time. Passes that origin on the pkpass format will only have to as we only have the expirationDate field here.
-
+All time information in esPass has to be in the ISO-8601 format.
 
 ### Metadata
 
