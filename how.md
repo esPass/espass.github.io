@@ -68,13 +68,9 @@ The pass is a zip-file with the file-extension .espass - In this zip-container y
 }
 {% endhighlight %}
 
-type can be either *EVENT*, *VOUCHER*, *LOYALTY*, *COUPON*, *BOARDING*
-
-this might be extended with other types in later versions
-
-"Id" is mainly used to prevent duplicates and is a string that should be as unique as possible.
-
-Name is a string that can be presented to the user in a list of passes.
+* *"type"* can be either *EVENT*, *VOUCHER*, *LOYALTY*, *COUPON*, *BOARDING* - this might be extended with other types in later versions
+* *"id"* is mainly used to prevent duplicates and is a string that should be as unique as possible.
+* *"name"* is a string that can be presented to the user in a list of passes.
 
 We keep the mandatory fields as limited as possible to not pollute later usages with unnecessary fields.
 
@@ -232,4 +228,4 @@ Also for reasons of good UX we will not require the normal user to hold any ethe
 
 ### Distribution of passes
 
-In the beginning we will be pragmatic about this and deliver passes via download or mail. But the future is in providing the passes via [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System). This will only work for contract based passes. It would be stupid with barcode backed passes. Contract based passes will be provided without the key information. So the pass provider can publish the pass with all needed information - the user can download this and then make the pass a valid one by paying the pass and executing a contract this way. The hash in ipfs can then also be bound to the event-contract so users can be sure about details e.g. specified in the fields.
+In the beginning we will be pragmatic about this and deliver passes via download or mail. But the future is in providing the passes via [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System). This will only work for contract based passes. It would be stupid with barcode backed passes. Contract based passes will be provided without the key information. So the pass provider can publish the pass with all needed information - the user can download this and then make the pass a valid one by paying the pass and executing a contract this way. The hash in IPFS can then also be bound to the event-contract so users can be sure about details e.g. specified in the fields.
