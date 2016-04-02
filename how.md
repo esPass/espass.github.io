@@ -216,7 +216,7 @@ If you sell a pass - you do not just give a copy of the esPass file to the buyer
 
 ### Entry
 
-When checking passes at the entrance we check that the guests have the private key assigned with the pass. We can do this by letting the user sign a given string with their key. We might define a freeze-period before the event where tickets cannot be resold anymore as we otherwise have to rely on a on the spot internet connection.
+When checking passes at the entrance we check that the guests have the private key assigned with the pass. We can do this by letting the user sign a given string with their key. We might define a freeze-period before the event where tickets cannot be resold anymore as we otherwise have to rely on a on the spot internet connection. Sure the passes can still be sold the traditional ( trust-requiring ) way after the freeze-period. Some hours to a day should be enough of a period before the event to be able to get the latest data - we don't have to download the whole blockchain - just the proofs for our contract.
 
 ### Graceful degradation
 
