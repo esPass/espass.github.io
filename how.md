@@ -29,19 +29,19 @@ The basic smartPass is like the [coin contract](https://www.ethereum.org/token) 
 
 {% highlight java %}
 contract MyEventPass {         
-  /* map from address to count of tickets */
-  mapping (address => uint256) public ticketOwnership;   
+  /* map from address to count of passes */
+  mapping (address => uint256) public passOwnership;   
 
   function MyEventPass() {
-    ticketOwnership[msg.sender] = 1000; /* 1000 Tickets available */
+    ticketOwnership[msg.sender] = 1000; /* 1000 Passes available */
   }
 
   /* Send passes */
   function transfer(address _to, uint256 _value) {
-      if (ticketOwnership[msg.sender] < _value) throw;           // Check if the sender has enough   
-      if (ticketOwnership[_to] + _value < ticketOwnership[_to]) throw; // Check for overflows
-      ticketOwnership[msg.sender] -= _value;                     // Subtract from the sender
-      ticketOwnership[_to] += _value;                            // Add the same to the recipient            
+      if (passOwnership[msg.sender] < _value) throw;           // Check if the sender has enough   
+      if (passOwnership[_to] + _value < passOwnership[_to]) throw; // Check for overflows
+      passOwnership[msg.sender] -= _value;                     // Subtract from the sender
+      passOwnership[_to] += _value;                            // Add the same to the recipient            
   }
 
   /* This unnamed function is called whenever someone tries to send ether to it */
