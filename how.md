@@ -33,7 +33,7 @@ contract MyEventPass {
   mapping (address => uint256) public passOwnership;   
 
   function MyEventPass() {
-    ticketOwnership[msg.sender] = 1000; /* 1000 Passes available */
+    passOwnership[msg.sender] = 1000; /* 1000 Passes available */
   }
 
   /* Send passes */
