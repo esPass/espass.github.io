@@ -20,7 +20,8 @@ You need PassAndroid 3 to open esPass files. It is in beta - you need to [opt-in
 
 
 ### Coupons
-<img class="passicon" src="/assets/img/pass_icons/charge.png" alt="charge"/>
+<a href="/assets/download/pass/charge_coupon.espass">
+<img class="passicon" src="/assets/img/pass_icons/charge.png" alt="charge"/></a>
 ***Charge your car from solar power***
 
 max 100kWh
