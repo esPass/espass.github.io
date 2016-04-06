@@ -3,9 +3,6 @@ title: Example esPass files
 layout: default
 permalink: /examples/
 ---
-### Context
-
-You need PassAndroid 3 to open esPass files. It is in beta - you need to [opt-in](https://play.google.com/apps/testing/org.ligi.passandroid) to this beta to get version 3 of passandroid
 
 ### Events
 
