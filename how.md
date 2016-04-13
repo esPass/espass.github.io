@@ -51,6 +51,11 @@ contract MyEventPass {
 }
 {% endhighlight %}
 
+
+### EIP20
+
+For connecting the passes with other contracts ( like [Smart Contract Based Token Purchase Order](https://gist.github.com/pipermerriam/6f2a06feddf8f6b8a5b6bb929b8dc16e)) the contracts should follow [EIP20 Token standard](https://github.com/ethereum/EIPs/issues/20)
+
 The esPass FileFormat
 ---------------------
 
