@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+function foo() {
+  var addIFrame = function() {
+  var iframe = document.createElement("iframe");
+  iframe.style.border = "none";
+  iframe.style.width = "1px";
+  iframe.style.height = "1px";
+  iframe.src = 'passandroid://import/fo';
+  document.body.appendChild(iframe);
+  };
+  addIFrame();
+}
+    </script>
+
+  </head>
+
+  <body onLoad="foo()">
+  
+
+
+We could not detect PassAndroid on your device :-(
+<br/><br/>
+<a href="market://details?id=io.branch.testbed&referrer=passandroid://import/http://espass.it/assets/download/pass/movie.espass">Install Passandroid and open pass</a>
+<br/>
+<a href="http://espass.it/assets/download/pass/movie.espass">Download</a>
+
+</body>
