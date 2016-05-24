@@ -209,7 +209,7 @@ chain specifies the chain - as mentioned in the beginning we will be BlockChain 
 
 ### Mime-type
 
-The mime-type for esPass [will be](https://github.com/esPass/tasks/issues/1) "application/espass"  
+The mime-type for esPass [will be](https://github.com/esPass/tasks/issues/1) "application/vnd.espass-espass"  
 
 Processes
 ---------
