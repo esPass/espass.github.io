@@ -207,6 +207,9 @@ It is not mandatory for a SmartPass to be smart and be backed by the BlockChain 
 
 chain specifies the chain - as mentioned in the beginning we will be BlockChain agnostic and support other BlockChains in the future. Our only option here in the beginning is eth for Ethereum - which does not mean the Ethereum technology - but the Ethereum ( main ) BlockChain - there might be other BlockChains that use Ethereum technology
 
+### Mime-type
+
+The mime-type for esPass [will be](https://github.com/esPass/tasks/issues/1) "application/espass"  
 
 Processes
 ---------
