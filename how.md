@@ -209,7 +209,7 @@ chain specifies the chain - as mentioned in the beginning we will be BlockChain 
 
 ### Mime-type
 
-The mime-type for esPass [will be](https://github.com/esPass/tasks/issues/1) "application/vnd.espass-espass+zip"  
+The media-type for esPass is "application/vnd.espass-espass+zip" - more details about [espass media-type assignment at iana here](http://www.iana.org/assignments/media-types/application/vnd.espass-espass+zip).
 
 Processes
 ---------
