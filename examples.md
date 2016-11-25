@@ -6,24 +6,19 @@ permalink: /examples/
 
 ### Events
 
-<a href="/assets/download/pass/movie.espass">
-<img class="passicon" src="/assets/img/pass_icons/movie.png" alt="movie"/></a>
-***Movie: Star Trek Beyond***
-
-21.07.2016 20:30
-
- <p style="clear:left;margin-bottom:48px"/>
-
-
+{% include example.html
+   	   icon="/assets/img/pass_icons/movie.png"
+	   link="/assets/download/pass/movie.espass"
+	   info="21.07.2017 20:30"
+	   name="Movie: The Martian" %}
 
 ### Coupons
-<a href="/assets/download/pass/charge_coupon.espass">
-<img class="passicon" src="/assets/img/pass_icons/charge.png" alt="charge"/></a>
-***Charge your car from solar power***
+{% include example.html
+   	   icon="/assets/img/pass_icons/charge.png"
+	   link="/assets/download/pass/charge_coupon.espass"	   
+	   name="Charge your car from solar power"
+	   info="21.07.2016 20:30" %}
 
-max 100kWh
-
- <p style="clear:left;margin-bottom:48px"/>
 
  <a href="/examples/">
  <img class="passicon" src="/assets/img/pass_icons/coffee.png" alt="coffee"/></a>
