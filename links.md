@@ -12,6 +12,8 @@ There are recently more projects popping up also trying to bring tickets on the 
 * <a href="http://www.reply.com/en/content/blockchain-ticketing-solution-cloudchain">cloudchain</a>
 * <a href="https://aventus.io">aventus</a>
 
+NOTICE: this is not an endorsement for these projects - simply mentioning them so everyone can do their research!
+
 Articles about this topic:
 
 * <a href="https://theringer.com/ticket-industry-problem-solution-e4b3b71fdff6">https://theringer.com/ticket-industry-problem-solution-e4b3b71fdff6</a>
