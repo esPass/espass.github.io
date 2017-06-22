@@ -11,6 +11,7 @@ There are recently more projects popping up also trying to bring tickets on the 
 * <a href="https://blocktix.io">blocktix</a>
 * <a href="http://www.reply.com/en/content/blockchain-ticketing-solution-cloudchain">cloudchain</a>
 * <a href="https://aventus.io">aventus</a>
+* <a href="https://www.citizenticket.co.uk/bitticket">bitticket</a>
 
 NOTICE: this is not an endorsement for these projects - simply mentioning them so everyone can do their research!
 
