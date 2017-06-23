@@ -6,6 +6,7 @@ permalink: /links/
 
 There are recently more projects popping up also trying to bring tickets on the BlockChain. This is a list to keep track of them - if you know more please let me know.
 
+* <a href="https://www.hellosugoi.com">hellosugoi</a>
 * <a href="https://guts.tickets">guts.tickets</a>
 * <a href="http://www.lavamovement.com">lavamovement</a>
 * <a href="https://blocktix.io">blocktix</a>
