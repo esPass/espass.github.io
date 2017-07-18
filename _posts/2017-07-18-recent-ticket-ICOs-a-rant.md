@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Current ticket ICO's - a rant
+title: Current ticket ICOs - a rant
 ---
 
 There are now 2 ICOs promising to bring tickets on Ethereum and I have to get something off my chest.
