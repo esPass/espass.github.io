@@ -16,3 +16,8 @@ Coffee pass icon: [https://openclipart.org/user-detail/AhNinniah](https://opencl
 Movie pass icon: [https://openclipart.org/user-detail/gsagri04](https://openclipart.org/user-detail/gsagri04)
 
 Rocket pass icon: [ccc events](https://events.ccc.de)
+
+Rocket icons in SpacePort pass:
+- Space rocket by [laobc](https://openclipart.org/user-detail/laobc)
+- Rocket blasting off into space by [GDJ](https://openclipart.org/user-detail/GDJ)
+- Rocket Blastoff by [rygle](https://openclipart.org/user-detail/rygle)
