@@ -28,10 +28,12 @@ permalink: /examples/
  <p style="clear:left;margin-bottom:48px"/>
 
 ### Boarding
-<img class="passicon" src="/assets/img/pass_icons/30C3.png" alt="star ticket"/>
-***Ticket to the stars***
+{% include example.html
+       icon="/assets/img/pass_icons/30C3.png"
+       link="/assets/download/pass/spaceship_boarding.espass"
+       name="Ticket to the stars"
+       info="01.01.2023 00:20" %}
 
-1.1.2023 16:20
 <p style="clear:left;padding:16px"/>
 
 <a href="/examples/">
