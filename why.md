@@ -42,6 +42,7 @@ Currently when buying a ticket you not only pay with money you also have to pay 
 ### Usage of the key
 
 By having a digital authorization for participants of the event some more interesting things get possible. Imagine events where you can vote for light, music or other things with your pass - even after entering the event. You do not leave the secret on the door - you just show you have the secret and keep it.
+Another idea that emerged in the context of DevCon3 would be to have a chat that can only be accessed by participants of the event.
 
 ### Leverage old keys
 
