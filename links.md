@@ -15,7 +15,7 @@ There are recently more projects emerging that are also trying to bring tickets 
 * <a href="http://www.reply.com/en/content/blockchain-ticketing-solution-cloudchain">cloudchain</a>
 * <a href="https://blocktix.io">blocktix</a>
 * <a href="https://eventchain.io">eventchain</a>
-* <a href="https://crypto.tickets/index.en.php>crypto.tickets</a>
+* <a href="https://crypto.tickets/index.en.php">crypto.tickets</a>
 * <a href="https://aventus.io">aventus</a>
 
 Articles about this topic:
