@@ -4,7 +4,7 @@ layout: default
 permalink: /links/
 ---
 
-There are recently more projects emerging that are also trying to bring tickets on the BlockChain. This is a list to keep track of them. If you know more please let me know. The order is very roughly from interesting(top) to (IMHO) BS(bottom).
+There are recently more projects emerging that are also trying to bring tickets on the BlockChain. This is a list to keep track of them. If you know more please let me know.
 
 * <a href="https://www.hellosugoi.com">hellosugoi</a>
 * <a href="https://www.secutix.com">SecuTix</a>
@@ -15,6 +15,7 @@ There are recently more projects emerging that are also trying to bring tickets 
 * <a href="http://www.reply.com/en/content/blockchain-ticketing-solution-cloudchain">cloudchain</a>
 * <a href="https://blocktix.io">blocktix</a>
 * <a href="https://eventchain.io">eventchain</a>
+* <a href="https://crypto.tickets/index.en.php>crypto.tickets</a>
 * <a href="https://aventus.io">aventus</a>
 
 Articles about this topic:
