@@ -41,8 +41,10 @@ Currently when buying a ticket you not only pay with money you also have to pay 
 
 ### Usage of the key
 
-By having a digital authorization for participants of the event some more interesting things get possible. Imagine events where you can vote for light, music or other things with your pass - even after entering the event. You do not leave the secret on the door - you just show you have the secret and keep it.
+By having a digital authorization for participants of the event some more interesting things get possible. Imagine events where you can vote for light, music or other things with your pass - even after entering the event. You do not leave the secret on the door. You just show you have the secret and keep it.
+The key can also be used allow you get get insurance for the ticket e.g. with a [etherisc](https://etherisc.com) contract for flights. This makes abuse of the insurance by the oracle/data-provider harder. Also is more effective against abusing the insurance for gambling than the checkbox etherrisc uses currently.
 Another idea that emerged in the context of DevCon3 would be to have a chat that can only be accessed by participants of the event.
+
 
 ### Leverage old keys
 
