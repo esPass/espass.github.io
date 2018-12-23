@@ -68,14 +68,14 @@ The pass is a zip-file with the file-extension .espass - In this zip-container y
 {% highlight json %}
 {
   "type":"EVENT",
-  "name":"My awesome event",
+  "description":"My awesome event",
   "id":"db8049ec-f576-4548-aee8-c6b5f5004909"
 }
 {% endhighlight %}
 
 * *"type"* can be either *EVENT*, *VOUCHER*, *LOYALTY*, *COUPON*, *BOARDING* - this might be extended with other types in later versions
 * *"id"* is mainly used to prevent duplicates and is a string that should be as unique as possible.
-* *"name"* is a string that can be presented to the user in a list of passes.
+* *"description"* is a string that can be presented to the user in a list of passes.
 
 We keep the mandatory fields as limited as possible to not pollute later usages with unnecessary fields.
 
